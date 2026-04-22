@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables
+.env
+server/.env
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# IDE / System files
+.vscode/
+.DS_Store
+dist/
+client/dist/
