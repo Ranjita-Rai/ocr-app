@@ -1,8 +1,8 @@
-# Visionary OCR
+# OCR
 
-A full-stack Optical Character Recognition (OCR) web application built with React and Node.js. It uses Tesseract.js for offline, privacy-first text extraction from images and PDFs.
+A web application built with React and Node.js. It uses Tesseract.js for offline, privacy-first text extraction from images and PDFs.
 
-## 🚀 Features
+## Features
 
 - **Privacy-First**: All OCR processing happens on your machine (offline).
 - **Modern UI**: Dark-mode glassmorphism design with fluid animations.
@@ -11,16 +11,16 @@ A full-stack Optical Character Recognition (OCR) web application built with Reac
 - **Text Actions**: Copy results to clipboard or download as `.txt`.
 - **Responsive**: Fully functional on mobile and desktop.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React (Vite), Framer Motion, Lucide Icons, Axios.
 - **Backend**: Node.js, Express, Tesseract.js, Multer.
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/ocr-app.git
+clone this repo
 cd ocr-app
 ```
 
@@ -36,7 +36,7 @@ cd client
 npm install
 ```
 
-## 🏃 Running the App
+## Running the App
 
 ### Start the Backend
 ```bash
@@ -50,7 +50,3 @@ cd client
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
-
-## 📜 License
-MIT
